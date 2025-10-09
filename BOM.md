@@ -25,7 +25,7 @@
 | --- | --- | --- | --- |
 | board (the brain) | ESP32 T-Display, 16MB CH9102F | [Amazon](https://www.amazon.de/-/en/gp/product/B099MPFJ9M) | €23 |
 | battery| Lipo Battery, 1000 Mah, E503450 3.7v |  [Amazon](https://www.amazon.de/-/en/gp/product/B09GK98KZK) | €18 |
-| diff pressure sensor | SM9233-BCE-S-250-002, calculate air density | [Mouser]([https://www.amazon.com/gp/product/B01ICN5QPU/ref=ox_sc_act_title_1?smid=A30QSGOJR8LMXA&psc=1](https://www.mouser.se/ProductDetail/TE-Connectivity-SMI/SM9336-BCE-S-250-000?qs=55YtniHzbhAm7mul38MMZA%3D%3D&utm_id=22436684836&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeacorp&gad_source=1&gad_campaignid=22433190659&gbraid=0AAAAADn_wf0pXu5jCl6zEDgJ82T-Qw8ro&gclid=CjwKCAjwup3HBhAAEiwA7euZujFI_hJKNmeEL1Wnc_qjCx5wEP355SUfOKAW-czww1dG5m1hQzr2-xoCapQQAvD_BwE)) | $47 |
+| diff pressure sensor | SM9233-BCE-S-250-002, calculate air density | [Mouser](https://www.mouser.se/ProductDetail/TE-Connectivity-SMI/SM9336-BCE-S-250-000?qs=55YtniHzbhAm7mul38MMZA%3D%3D&utm_id=22436684836&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeacorp&gad_source=1&gad_campaignid=22433190659&gbraid=0AAAAADn_wf0pXu5jCl6zEDgJ82T-Qw8ro&gclid=CjwKCAjwup3HBhAAEiwA7euZujFI_hJKNmeEL1Wnc_qjCx5wEP355SUfOKAW-czww1dG5m1hQzr2-xoCapQQAvD_BwE)) | $47 |
 | screws | 2 x M3 x 8mm | [Amazon](https://www.amazon.de/-/en/340pcs-Stainless-Screws-Button-Assortment/dp/B08H24T1DJ) | €9 for kit |
 | threaded inserts (original design only) | M3 x 8 x 5mm | [Amazon](amazon.de/gp/product/B09ZHSGHXD) | tbd |
 | aquarium tubing (original design only) | standard 3/16", 4mm inside diameter (ID) | [eBay](http://ebay.de/itm/183220505584?var=691579886173) | tbd |
@@ -33,8 +33,6 @@
 | o-ring | for oxygen sensor, 22x19x1.5mm | [Amazon](https://www.amazon.de/-/en/gp/product/B00AKW4MM0) | €5 for 10 |
 | jumper wire | for making board-sensor connections | [eBay1](ebay.de/itm/184844268251) [eBay2](ebay.de/itm/184844268251) | tbd |
 | oxygen sensor | Gravity: I2C Oxygen Sensor |  [Mouser](https://eu.mouser.com/ProductDetail/426-SEN0322) | €49 |
-| differential pressure sensor | Omron--D6F-PH0025AD2 |  [Mouser](https://eu.mouser.com/ProductDetail/653-D6F-PH0025AD2) | €26 |
-| cable for diff press sensor | DF-CABLE3 |  tbd | tbd |
 | mask | half mask, particulate matter, 6200/07025 | [Amazon](https://www.amazon.de/-/en/gp/product/B005HK05L2) | €21 |
 | CO2 sensor | SCD30 |  [Amazon](https://www.amazon.de/-/en/gp/product/B0B9MYCL3S) or [Watterott](http://shop.watterott.com/Sensirion-SCD30-CO2-Kohlendioxid-Sensor) | €43 |
 | on/off switch | mini push button |  [Mouser](https://eu.mouser.com/ProductDetail/Adafruit/1683)| €2 |
