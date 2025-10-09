@@ -25,10 +25,11 @@
 | --- | --- | --- | --- |
 | board (the brain) | ESP32 T-Display, 16MB CH9102F | [Amazon](https://www.amazon.de/-/en/gp/product/B099MPFJ9M) | €23 |
 | battery| Lipo Battery, 1000 Mah, E503450 3.7v |  [Amazon](https://www.amazon.de/-/en/gp/product/B09GK98KZK) | €18 |
-| pressure sensor | BMP280, calculate air density |  [Amazon](https://www.amazon.de/-/en/gp/product/B0BN1NXG4D) | €6 for 5 |
+| diff pressure sensor | SM9233-BCE-S-250-002, calculate air density | [Mouser]([https://www.amazon.com/gp/product/B01ICN5QPU/ref=ox_sc_act_title_1?smid=A30QSGOJR8LMXA&psc=1](https://www.mouser.se/ProductDetail/TE-Connectivity-SMI/SM9336-BCE-S-250-000?qs=55YtniHzbhAm7mul38MMZA%3D%3D&utm_id=22436684836&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeacorp&gad_source=1&gad_campaignid=22433190659&gbraid=0AAAAADn_wf0pXu5jCl6zEDgJ82T-Qw8ro&gclid=CjwKCAjwup3HBhAAEiwA7euZujFI_hJKNmeEL1Wnc_qjCx5wEP355SUfOKAW-czww1dG5m1hQzr2-xoCapQQAvD_BwE)) | $47 |
 | screws | 2 x M3 x 8mm | [Amazon](https://www.amazon.de/-/en/340pcs-Stainless-Screws-Button-Assortment/dp/B08H24T1DJ) | €9 for kit |
 | threaded inserts (original design only) | M3 x 8 x 5mm | [Amazon](amazon.de/gp/product/B09ZHSGHXD) | tbd |
 | aquarium tubing (original design only) | standard 3/16", 4mm inside diameter (ID) | [eBay](http://ebay.de/itm/183220505584?var=691579886173) | tbd |
+| Silicone Tubing | 2mm ID x 4mm OD |  [Amazon](https://www.amazon.com/Quickun-Silicone-Brewing-Kegerator-Aquaponics/dp/B08BRJS5GD/ref=sxin_16_pa_sp_search_thematic_sspa?content-id=amzn1.sym.be32e42f-749f-4428-ab16-31614ba101a3%3Aamzn1.sym.be32e42f-749f-4428-ab16-31614ba101a3&crid=2TBQGWI00CVPO&cv_ct_cx=2mm%2Bplastic%2Btubing&keywords=2mm%2Bplastic%2Btubing&pd_rd_i=B08BRJS5GD&pd_rd_r=076b3c90-7c26-4f67-b77d-f56ac7cd6e17&pd_rd_w=jTDtI&pd_rd_wg=xVIhN&pf_rd_p=be32e42f-749f-4428-ab16-31614ba101a3&pf_rd_r=B73NR319758P4DAKX1WT&qid=1759996634&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=2mm%2Bplastic%2Btubing%2Caps%2C537&sr=1-1-38f1b294-ceac-4b0f-b4a4-629ab102646f-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&th=1) | $6 |
 | o-ring | for oxygen sensor, 22x19x1.5mm | [Amazon](https://www.amazon.de/-/en/gp/product/B00AKW4MM0) | €5 for 10 |
 | jumper wire | for making board-sensor connections | [eBay1](ebay.de/itm/184844268251) [eBay2](ebay.de/itm/184844268251) | tbd |
 | oxygen sensor | Gravity: I2C Oxygen Sensor |  [Mouser](https://eu.mouser.com/ProductDetail/426-SEN0322) | €49 |
