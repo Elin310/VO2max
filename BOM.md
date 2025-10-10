@@ -25,7 +25,7 @@
 | --- | --- | --- | --- |
 | board (the brain) | ESP32 T-Display, 16MB CH9102F | [Amazon](https://www.amazon.de/-/en/gp/product/B099MPFJ9M) | €23 |
 | battery| Lipo Battery, 1000 Mah, E503450 3.7v |  [Amazon](https://www.amazon.de/-/en/gp/product/B09GK98KZK) | €18 |
-| diff pressure sensor | SM9233-BCE-S-250-002, calculate air density | [Mouser](https://www.mouser.se/ProductDetail/TE-Connectivity-SMI/SM9336-BCE-S-250-000?qs=55YtniHzbhAm7mul38MMZA%3D%3D&utm_id=22436684836&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeacorp&gad_source=1&gad_campaignid=22433190659&gbraid=0AAAAADn_wf0pXu5jCl6zEDgJ82T-Qw8ro&gclid=CjwKCAjwup3HBhAAEiwA7euZujFI_hJKNmeEL1Wnc_qjCx5wEP355SUfOKAW-czww1dG5m1hQzr2-xoCapQQAvD_BwE)) | $47 |
+| diff pressure sensor | SM9233-BCE-S-250-002, calculate air density | [Mouser](https://www.mouser.se/ProductDetail/TE-Connectivity-SMI/SM9336-BCE-S-250-000?qs=55YtniHzbhAm7mul38MMZA%3D%3D&utm_id=22436684836&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeacorp&gad_source=1&gad_campaignid=22433190659&gbraid=0AAAAADn_wf0pXu5jCl6zEDgJ82T-Qw8ro&gclid=CjwKCAjwup3HBhAAEiwA7euZujFI_hJKNmeEL1Wnc_qjCx5wEP355SUfOKAW-czww1dG5m1hQzr2-xoCapQQAvD_BwE) | $47 |
 | screws | 2 x M3 x 8mm | [Amazon](https://www.amazon.de/-/en/340pcs-Stainless-Screws-Button-Assortment/dp/B08H24T1DJ) | €9 for kit |
 | threaded inserts (original design only) | M3 x 8 x 5mm | [Amazon](amazon.de/gp/product/B09ZHSGHXD) | tbd |
 | aquarium tubing (original design only) | standard 3/16", 4mm inside diameter (ID) | [eBay](http://ebay.de/itm/183220505584?var=691579886173) | tbd |
