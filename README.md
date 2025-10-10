@@ -31,30 +31,31 @@ Allows for BLE or WiFi or ANT+ connections from any other sensor
 - V4 - Proposed by Stefan, affectionately called "The Snork".  Latest version.
 
 ## Current Status
-Currently (August 16th 2023) a work in progress.  Refer to the [Wiki](https://github.com/meteoscientific/VO2max/wiki) for exactly where we are now.
+Currently (Oktober 10th 2025) a work in progress:
+The mask is built with a bill of materials under EU in the BOM file. 
+The code for Arduino v1.1 has been updated with new sensor values. 
+The battery is not installed and therefore neither is the on/off switch.
 
 ### Steps to Build & Use - INCOMPLETE
 
 ## Order Sensors, board, and assorted fasteners.
-Check the [BOM](https://github.com/meteoscientific/VO2max/blob/main/BOM.md) for all the various parts to order, they can take a week or two to come in.
+Check the [BOM](https://github.com/Elin310/VO2max/blob/main/BOM.md) for all the various parts to order, they can take a week or two to come in.
 
 ## Print 3D Parts
 Print out the 3D parts using PLA.  This is still a work in progress, but feel free to explore the 3D Test Print directory and print out what you'd like.  Nothing works well yet (Aug 4th, 2023).
 
+The 3D parts used is under the map 3D print files under arduino v1.1 map. The buttons are not a real match to the case and the on/off switch for the battery was the wrong one and need to be adjusted.
+
 <br>Test fit all parts and make sure you know where everything goes; that will make the next steps much easier.
 
 ## Program Board
-Originally this project was built with the Arduino IDE.  A few of us nerds decided that Platformio might be easier and more rad, so we're using that.
-
-When you first get the board, hold down the boot button while plugging it in, and keep that down.  You need to erase everything on the board before you load the rest.  From there, you should be able to use the Platformio folder to load everything you'll need.  I did this on a Windows computer (a little Beelink with a monitor & display) because I couldn't get it to work on my Mac.
+Originally this project was built with the Arduino IDE and we decided to continue on that.
 
 ## Wire It Up
 
 ## Assembly
 
-### Older Information Relevant to V2 (Urissel/Ivor updated version)
-
-## Arduino (from Ivor)
+## Arduino
 Source code for Arduino under "VO2Max" - Arduino board settings to use for TTGO T-Display:
 
     Board: ESP32 Dev Module
@@ -101,11 +102,6 @@ Source code for Arduino under "VO2Max" - Arduino board settings to use for TTGO 
 
 3D printing files are within the `design` folder, Ulrich Rissel's design files to use a larger venturi diameter with CO2 sensor holder in `design/CO2_upgrade`
 
-## Usage - Zwift & Strava
-* Enable bluetooth on your phone
-* Go to "Record" function at bottom of screen on unit, and press it
-* Look for the Heart icon at the bottom, and push that to bring up the bluetooth pairing screen to find the unit
-
 ## Usage - App
 * Turn on device
 * Add your weight (kg or lbs?)
@@ -113,7 +109,7 @@ Source code for Arduino under "VO2Max" - Arduino board settings to use for TTGO 
 * Turn on the Sensirion App, which will automatically pair and start recording data
 
 Programing is done through the USB-C connector. 
-Charging the battery is accomplished by turning on the unit and then plugging it in.
+(Charging the battery is accomplished by turning on the unit and then plugging it in.) - Not included in this version
 
 The App is designed for collecting data from a CO2 sensor so you have to spoof it by sending the Volume Minute of O2 to the CO2 level screen, the VO2 max to the Temp screen and the O2 level to the Humidity screen. 
 
@@ -122,11 +118,7 @@ The App is designed for collecting data from a CO2 sensor so you have to spoof i
 - Menu system enhanced with adjustable calibration and setup options.
 - Additional GoldenCheetah integration (with VO2 master output)
 - CO2 sensor support (Ulrich's mods)
-
-## Running the unit with Zwift or Strava
-Use FinalZwiftConnect with files
-* DFRobot_OxygenSensor.cpp
-* DFRobot_OxygenSensor.h
+- Updated code, both .ino file and libraries to match the new sensors
 
 ## Running the unit on the [Sensirion MyAmbience app](https://apps.apple.com/us/app/sensirion-myambience/id1529131572) (iOS)
 * FinalSensirionScreen
@@ -134,4 +126,3 @@ Use FinalZwiftConnect with files
 * DFRobot_OxygenSensor.h
 * Sensirion_GadgetBle_Lib.cpp
 * Sensirion_GadgetBle_Lib.h
-
