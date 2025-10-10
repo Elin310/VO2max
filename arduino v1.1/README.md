@@ -31,7 +31,10 @@ Allows for BLE or WiFi or ANT+ connections from any other sensor
 - V4 - Proposed by Stefan, affectionately called "The Snork".  Latest version.
 
 ## Current Status
-Currently (Oktober 10th 2025) a work in progress.  Refer to the [Wiki](https://github.com/Elin310/VO2max) for exactly where we are now.
+Currently (Oktober 10th 2025) a work in progress:
+The mask is built with a bill of materials under EU in the BOM file. 
+The code for Arduino v1.1 has been updated with new sensor values. 
+The battery is not installed and therefore neither is the on/off switch.
 
 ### Steps to Build & Use - INCOMPLETE
 
