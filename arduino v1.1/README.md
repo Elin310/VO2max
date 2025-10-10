@@ -49,17 +49,13 @@ The 3D parts used is under the map 3D print files under arduino v1.1 map. The bu
 <br>Test fit all parts and make sure you know where everything goes; that will make the next steps much easier.
 
 ## Program Board
-Originally this project was built with the Arduino IDE.  A few of us nerds decided that Platformio might be easier and more rad, so we're using that.
-
-When you first get the board, hold down the boot button while plugging it in, and keep that down.  You need to erase everything on the board before you load the rest.  From there, you should be able to use the Platformio folder to load everything you'll need.  I did this on a Windows computer (a little Beelink with a monitor & display) because I couldn't get it to work on my Mac.
+Originally this project was built with the Arduino IDE and we decided to continue on that.
 
 ## Wire It Up
 
 ## Assembly
 
-### Older Information Relevant to V2 (Urissel/Ivor updated version)
-
-## Arduino (from Ivor)
+## Arduino
 Source code for Arduino under "VO2Max" - Arduino board settings to use for TTGO T-Display:
 
     Board: ESP32 Dev Module
@@ -122,7 +118,7 @@ The App is designed for collecting data from a CO2 sensor so you have to spoof i
 - Menu system enhanced with adjustable calibration and setup options.
 - Additional GoldenCheetah integration (with VO2 master output)
 - CO2 sensor support (Ulrich's mods)
-- Updated code both .ino file and libraries to match the new sensors
+- Updated code, both .ino file and libraries to match the new sensors
 
 ## Running the unit on the [Sensirion MyAmbience app](https://apps.apple.com/us/app/sensirion-myambience/id1529131572) (iOS)
 * FinalSensirionScreen
