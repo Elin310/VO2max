@@ -25,6 +25,7 @@ Allows for BLE or WiFi or ANT+ connections from any other sensor
   
 ## Versions
 - V1 - Original version that works, can be found via the Instructable link above.
+- V1.1 - Original version + CO2 and updated sensors due to availability
 - V2 - Upgraded version by Urissel & Ivor, includes the CO2 & ambient temp/pressure to adapt to different elevation & temperatures.
 - V3 - Proposed by Mahmoud, this is the T version.  Currently abandoned due to issues with getting correct sensor readings.
 - V4 - Proposed by Stefan, affectionately called "The Snork".  Latest version.
