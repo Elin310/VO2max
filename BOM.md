@@ -34,7 +34,7 @@
 | jumper wire | for making board-sensor connections | [eBay1](ebay.de/itm/184844268251) [eBay2](ebay.de/itm/184844268251) | tbd |
 | oxygen sensor | Gravity: I2C Oxygen Sensor |  [Mouser](https://eu.mouser.com/ProductDetail/426-SEN0322) | €49 |
 | mask | half mask, particulate matter, 6200/07025 | [Amazon](https://www.amazon.de/-/en/gp/product/B005HK05L2) | €21 |
-| CO2 sensor | SCD30 |  [Amazon](https://www.amazon.de/-/en/gp/product/B0B9MYCL3S) or [Watterott](http://shop.watterott.com/Sensirion-SCD30-CO2-Kohlendioxid-Sensor) | €43 |
+| CO2 sensor | SCD30 |  [Mouser](https://www.mouser.se/ProductDetail/Mikroe/MIKROE-4725?qs=Li%252BoUPsLEnsKaKlNBnHiog%3D%3D) | €110 |
 | on/off switch | mini push button |  [Mouser](https://eu.mouser.com/ProductDetail/Adafruit/1683)| €2 |
 
 Prices are rounded and exclude VAT.
