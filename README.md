@@ -42,7 +42,7 @@ The battery is not installed and therefore neither is the on/off switch.
 Check the [BOM](https://github.com/Elin310/VO2max/blob/main/BOM.md) for all the various parts to order, they can take a week or two to come in.
 
 ## Print 3D Parts
-Print out the 3D parts using PLA.  This is still a work in progress, but feel free to explore the 3D Test Print directory and print out what you'd like.  Nothing works well yet (Aug 4th, 2023).
+Print out the 3D parts using PLA.
 
 The 3D parts used is under the map 3D print files under arduino v1.1 map. The buttons are not a real match to the case and the on/off switch for the battery was the wrong one and need to be adjusted.
 
@@ -52,8 +52,10 @@ The 3D parts used is under the map 3D print files under arduino v1.1 map. The bu
 Originally this project was built with the Arduino IDE and we decided to continue on that.
 
 ## Wire It Up
+See images for guidance under the folder images/arduino v1.1
 
 ## Assembly
+Make sure to fit the sensor with the tubings, or adjust the 3D print file to reflect the actual diameter on the tube.
 
 ## Arduino
 Source code for Arduino under "VO2Max" - Arduino board settings to use for TTGO T-Display:
@@ -121,7 +123,7 @@ The App is designed for collecting data from a CO2 sensor so you have to spoof i
 - Updated code, both .ino file and libraries to match the new sensors
 
 ## Running the unit on the [Sensirion MyAmbience app](https://apps.apple.com/us/app/sensirion-myambience/id1529131572) (iOS)
-* FinalSensirionScreen
+* VO2Max.ino
 * DFRobot_OxygenSensor.cpp
 * DFRobot_OxygenSensor.h
 * Sensirion_GadgetBle_Lib.cpp
