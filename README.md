@@ -70,11 +70,6 @@ Source code for Arduino under "VO2Max" - Arduino board settings to use for TTGO 
     Core Debug Level: None`
 
 ## Useful Images
-<figure>
-    <img src="/images/sensor_measurements.JPG" width="480" height="640"
-         alt="Sensor Measurements">
-    <figcaption>Measurements for the sensors.</figcaption>
-</figure><br><br>
 
 <figure>
     <img src="/images/parts.jpg" width="640" height="480"
@@ -87,14 +82,14 @@ Source code for Arduino under "VO2Max" - Arduino board settings to use for TTGO 
     <figcaption>First finished build.</figcaption>
 </figure><br><br>
 <figure>
-    <img src="/images/upgrading.jpg" width="640" height="480"
+    <img src="/images/arduino v1.1/wiring.jpg" width="640" height="480"
          alt="Upgrading">
-    <figcaption>Rebuilding to use CO2 sensor. SCD30 pictured right.</figcaption>
+    <figcaption>Rebuilding to use CO2 sensor. CO2 Click sensor pictured top left.</figcaption>
 </figure><br><br>
 <figure>
     <img src="/images/casefilling.jpg" width="640" height="480"
          alt="Upgraded build">
-    <figcaption>Assembled into case tightly, BM280 barometer addition mounted onto front of tube, wiring for CO2 monitor fed behind and out to top.</figcaption>
+    <figcaption>Assembled into case tightly, BM280 barometer addition mounted onto front of tube, wiring for CO2 monitor fed behind and out to top. Picture saved from original project</figcaption>
 </figure><br><br>
 <figure>
     <img src="/images/built2.jpg" width="640" height="480"
