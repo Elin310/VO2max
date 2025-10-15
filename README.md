@@ -82,7 +82,7 @@ Source code for Arduino under "VO2Max" - Arduino board settings to use for TTGO 
     <figcaption>First finished build.</figcaption>
 </figure><br><br>
 <figure>
-    <img src="/images/arduino v1.1/wiring.jpg" width="640" height="480"
+    <img src="/images/arduino v1.1/wiring.jpg" width="480" height="640"
          alt="Upgrading">
     <figcaption>Rebuilding to use CO2 sensor. CO2 Click sensor pictured top left.</figcaption>
 </figure><br><br>
