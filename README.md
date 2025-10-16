@@ -75,7 +75,7 @@ Source code for Arduino under "VO2Max" - Arduino board settings to use for TTGO 
 <figure>
     <img src="/images/arduino v1.1/Components.jpg" width="640" height="480"
          alt="Build parts">
-    <figcaption>Source parts, top to bottom. 3M mask with front plate removed, 3D printed case, Oxygen sensor, TTGo T-Display, Flow sensor.</figcaption>
+    <figcaption>Hardware components, from the 3D printed case. </figcaption>
 </figure><br><br>
 <figure>
     <img src="/images/arduino v1.1/wiring.jpg" width="480" height="640"
