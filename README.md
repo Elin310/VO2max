@@ -79,9 +79,14 @@ Source code for Arduino under "VO2Max" - Arduino board settings to use for TTGO 
 </figure><br><br>
 <figure>
   <figure>
-    <img src="/images/arduino v1.1/3Mmask.jpg" width="640" height="480"
+    <img src="/images/arduino v1.1/CO2click.jpg" width="640" height="480"
          alt="Build parts">
-    <figcaption>Hardware components, from the 3D printed case. </figcaption>
+    <figcaption>CO2 sensor </figcaption>
+</figure><br><br>
+  <figure>
+    <img src="/images/arduino v1.1/O2display.jpg" width="640" height="480"
+         alt="Build parts">
+    <figcaption>O2 sensor connected to the ESP32 TTGO board </figcaption>
 </figure><br><br>
 <figure>
     <img src="/images/arduino v1.1/wiring.jpg" width="480" height="640"
