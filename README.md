@@ -1,9 +1,9 @@
-# VO2 Max Mask 
-Super cool project to build your own VO2 Max mask.  Your "VO2 Max" is a measure of how much oxygen your body and absorb and use during exercise, read more about it [here](https://www.healthline.com/health/vo2-max#benefits).
+# VO2 Max Mask v 1.1
+Project to build an affordable and adaptable VO2 Max mask.  Your "VO2 Max" is a measure of how much oxygen your body and absorb and use during exercise, read more about it [here](https://www.healthline.com/health/vo2-max#benefits).
 
 Original idea and detailed build instructions can be found on [Instructable](https://www.instructables.com/Accurate-VO2-Max-for-Zwift-and-Strava/). Other designs can be found [here, a UC Davis Med Center project](https://faculty.engineering.ucdavis.edu/knoesen/wp-content/uploads/sites/119/2016/12/OOCOO_WirelessHealthSubmission_Final.pdf) and a [commercial version that costs just under US$6,000](https://vo2master.com/).
 
-This fork of [Ivor's excellent Github work](https://github.com/ihewitt/VO2max) incorporates the CO2 enhancements from Ulrich Rissel.  The intent with this repo is to make it as easy as possible to build a world class piece of kit that'll add useful metrics to your training.
+This fork of [Meteoscientific](https://github.com/meteoscientific/VO2max) incorporates the CO2 enhancements from Ulrich Rissel.  The intent with this repo is to make a prototype that can be used by Sports technology at KTH and be adble to make future improvements.
 
 ## Design Constraints
 Less than $200 for all parts and printing.
@@ -31,12 +31,13 @@ Allows for BLE or WiFi or ANT+ connections from any other sensor
 - V4 - Proposed by Stefan, affectionately called "The Snork".  Latest version.
 
 ## Current Status
-Currently (Oktober 10th 2025) a work in progress:
-The mask is built with a bill of materials under EU in the BOM file. 
+Currently (Oktober 16th 2025) a work in progress:
+The mask is built with the bill of materials under EU in the BOM file. 
 The code for Arduino v1.1 has been updated with new sensor values. 
 The battery is not installed and therefore neither is the on/off switch.
+Future recommendations can be found in the [Final report](https://github.com/Elin310/VO2max/papers/VO2MaxMaskFINAL.pdf)
 
-### Steps to Build & Use - INCOMPLETE
+### Steps to Build & Use
 
 ## Order Sensors, board, and assorted fasteners.
 Check the [BOM](https://github.com/Elin310/VO2max/blob/main/BOM.md) for all the various parts to order, they can take a week or two to come in.
@@ -77,25 +78,16 @@ Source code for Arduino under "VO2Max" - Arduino board settings to use for TTGO 
     <figcaption>Source parts, top to bottom. 3M mask with front plate removed, 3D printed case, Oxygen sensor, TTGo T-Display, Flow sensor.</figcaption>
 </figure><br><br>
 <figure>
-    <img src="/images/built.jpg" width="640" height="480"
-         alt="First build">
-    <figcaption>First finished build.</figcaption>
-</figure><br><br>
-<figure>
     <img src="/images/arduino v1.1/wiring.jpg" width="480" height="640"
          alt="Upgrading">
-    <figcaption>Rebuilding to use CO2 sensor. CO2 Click sensor pictured top left.</figcaption>
+    <figcaption>Starting to build to use CO2 sensor. CO2 Click sensor pictured top left.</figcaption>
 </figure><br><br>
 <figure>
     <img src="/images/casefilling.jpg" width="640" height="480"
          alt="Upgraded build">
     <figcaption>Assembled into case tightly, BM280 barometer addition mounted onto front of tube, wiring for CO2 monitor fed behind and out to top. Picture saved from original project</figcaption>
 </figure><br><br>
-<figure>
-    <img src="/images/built2.jpg" width="640" height="480"
-         alt="Upgraded build">
-    <figcaption>Pictured with the CO2 sensor upgrade attached</figcaption>
-</figure><br><br>
+
 
 3D printing files are within the `design` folder, Ulrich Rissel's design files to use a larger venturi diameter with CO2 sensor holder in `design/CO2_upgrade`
 
